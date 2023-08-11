@@ -1,0 +1,20 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyC3iXNyuY9pzH6a7rNXSzsQKy9_OimXyAs",
+    authDomain: "tarsam-bee26.firebaseapp.com",
+    databaseURL: "https://tarsam-bee26-default-rtdb.firebaseio.com",
+    projectId: "tarsam-bee26",
+    storageBucket: "tarsam-bee26.appspot.com",
+    messagingSenderId: "715203679560",
+    appId: "1:715203679560:web:86d273db30c4ec8ed98f7d"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
